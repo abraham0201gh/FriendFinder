@@ -1,4 +1,4 @@
-// Route data for user to view and what data user is abe to post to the server to store
+// Route data for user to view and what data user is able to post to the server to store
 
 var path = require("path");
 

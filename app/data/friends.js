@@ -1,10 +1,10 @@
 
-// Survey user responses, and compatability score data stored in the "friends" array of objects (use JSON). 
+// Survey user responses, and compatability score data stored in the friendsArray of objects (use JSON). 
 
 var friendsArray = [
 {
   "name":"Amy",
-  "photo":"https://www.pexels.com/photo/woman-in-green-zip-hooded-jacket-on-white-mountain-with-fogs-during-daytime-134068/",
+  "photo":"https://www.legendsofamerica.com/wp-content/uploads/2018/03/StatueLiberty2-600.jpg",
   "scores":[
       3,
       4,
@@ -20,7 +20,7 @@ var friendsArray = [
 },
 {
     "name":"Ben",
-    "photo":"https://www.pexels.com/photo/man-wearing-white-sweater-and-black-shorts-about-to-run-936094/",
+    "photo":"https://www.freeiconspng.com/uploads/travel-transparent-png-image-29.png",
     "scores":[
         4,
         1,
@@ -36,7 +36,7 @@ var friendsArray = [
   },
   {
     "name":"Diane",
-    "photo":"https://www.pexels.com/photo/woman-wearing-red-jacket-1579934/",
+    "photo":"http://holocron.swcombine.com/images/4/42/Lyly-Holocron.jpg",
     "scores":[
         3,
         3,
@@ -52,7 +52,7 @@ var friendsArray = [
   },
   {
     "name":"Henry",
-    "photo":"https://www.pexels.com/photo/adults-apron-business-counter-580613/",
+    "photo":"https://www.freeiconspng.com/uploads/pacman-png-9.png",
     "scores":[
         3,
         2,
@@ -68,7 +68,7 @@ var friendsArray = [
   },
   {
     "name":"Jenny",
-    "photo":"https://www.pexels.com/photo/women-wearing-white-long-sleeved-collared-shirt-holding-bitcoin-1037915/",
+    "photo":"https://wp-media.patheos.com/blogs/sites/777/2017/03/img_0833.jpg",
     "scores":[
         5,
         4,
@@ -84,7 +84,6 @@ var friendsArray = [
   }
 ];
 
-//console.log(friendsArray)
 
 // Set require to use this module in other .js files to use the data in this array
 module.exports = friendsArray;
